@@ -15,22 +15,22 @@
         public static int Add(int a, int b)
         {
             // Code
-            return 0; // Placeholder
+            return a+b; // Placeholder
         }
         public static int Subtract(int a, int b)
         {
             // Code
-            return 0; // Placeholder
+            return a-b; // Placeholder
         }
         public static int Multiply(int a, int b)
         {
             // Code
-            return 0; // Placeholder
+            return a*b; // Placeholder
         }
         public static decimal Divide(int a, int b)
         {
             // Code
-            return 0; // Placeholder
+            return a/(Convert.ToDecimal(b)); // Placeholder
         }
     }
 }
